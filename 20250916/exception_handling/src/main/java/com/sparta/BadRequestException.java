@@ -1,0 +1,11 @@
+package com.sparta;
+
+import com.sparta.global.CommonException;
+import org.springframework.http.HttpStatus;
+
+public class BadRequestException extends CommonException {
+
+    public BadRequestException(String message) {
+        super(message, HttpStatus.BAD_REQUEST);
+    }
+}
