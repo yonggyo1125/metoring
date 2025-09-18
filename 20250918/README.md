@@ -20,8 +20,6 @@ API(Application Programming Interface)
     - 애프리케이션을 프로그래밍할때의 지켜야할 명세
 
 
-
-
 JPA(Java/Jakarta Persistence API)
 - ORM 표준 명세 / JAVA EE / Jakarta EE 
 - ORM(Object Relational Mapping) : 객체간의 관계 매핑
