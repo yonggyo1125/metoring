@@ -1,4 +1,4 @@
-package solid.ocp;
+package org.sparta.solid.ocp;
 
 public class Quackable {
     public void quack() {

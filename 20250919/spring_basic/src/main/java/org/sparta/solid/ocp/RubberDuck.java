@@ -1,4 +1,4 @@
-package solid.ocp;
+package org.sparta.solid.ocp;
 
 public class RubberDuck extends Duck {
     // 못날라가고.. 못자는데...

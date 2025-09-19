@@ -1,4 +1,4 @@
-package solid.lsp;
+package org.sparta.solid.lsp;
 
 public class Cat implements Animal {
     @Override
