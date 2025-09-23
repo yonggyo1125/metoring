@@ -1,13 +1,16 @@
 package org.sparta.solid.ocp;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
 public class RobotDuck {
+
     private final Flyable flyable;
+
     private final Quackable quackable;
 
-    public RobotDuck(Flyable flyable, Quackable quackable) {
-        this.flyable = flyable;
-        this.quackable = quackable;
-    }
 
     public void func() {
         flyable.fly();
